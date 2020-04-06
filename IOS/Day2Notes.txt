@@ -1,0 +1,38 @@
+Process: Its an instance of an excuting program
+A Process contains:
+- State of Excution: Inculdes Program counters, stack
+Program counter - used to schedule the processes
+Stack pointer - switch between the processes 
+
+
+The process looks like the following:
+
+stack	- To store the process calls
+heap	- dynaminc memory 
+data	- Static when the program loads
+text	- static whent the program loads
+
+The representation is called as an adress space. This is a virtual adress space
+The mapping of the virtual adress space to the actual adress space in the physical memory is done using Page tables and the OS takes care of that.
+
+
+Process Control Block:
+It's a data structure that the OS maintains for the process that it manages.
+What does it contain?
+	- Program counter
+	- process state
+	- process number, .... and things related to a process
+This is important as the PCB stores the current state of the process
+
+Different states:
+- Running
+- Waiting
+- Terminated
+
+hot cache and cold cache?
+
+Daemon Process: It's the first process that executes. Parent of all the processes
+fork: this command is used to create a child process
+
+
+

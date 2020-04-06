@@ -1,0 +1,35 @@
+What is OS:
+	A piece of software that abstracts and arbitrates(manage and control) the mechanisms of the cumputer system.
+
+Elements of the OS:
+	Abstractions:
+		Process, Threads, Files, Sockets
+	Mechanisms:
+		Create, schedule, open, write
+	Policies:
+		LRU Cache, Earilies Deadline first
+
+Process- 
+Sockets- Used for communications between different systems
+Threads- Helps in running multiple processes
+
+Types:
+The type of OS that you use will depend upon the type of hardware that you use.
+Because of the software drivers that are written.
+
+Kernel:
+What is a Kernel?
+- It's core part of the operating system. Manages the requests passed to the os
+- Two types
+	- User kernel space
+	- OS kernel space
+Trap:
+	User attempts to perform operations on the kernel level
+System Call:
+	Interaction between the application and os is done via system calls
+LINUX Architecture:
+	- User Apps					 - User Mode
+	- Standard Utility Programs			 - User Mode
+	- Standard Libs - open, close, fork, etc   	 - User Mode
+	- Linux OS - Processes, memory mgmt, file system - Kernel mode
+	- HardWare					 - Kernel mode
